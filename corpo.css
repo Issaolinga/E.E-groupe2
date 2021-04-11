@@ -1,0 +1,141 @@
+body{
+  background-color:rgb(233, 231, 229)
+}
+span{
+  text-align:center;
+  color: blue;
+}
+
+.homee-contentt{
+  float: right;
+  padding: 170px;
+  margin: 12px;
+}
+.homee-contentt a{
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: 2px solid rgb(15, 15, 15);
+  transition: all 0.3s ease;
+}
+.homee-contentt a:hover{
+  color: crimson;
+  background: none;
+}
+
+.city{
+  background-color: rgb(66, 68, 67);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  padding: 0 20px;
+  text-align: center;
+  padding: 17px;
+  transform: translate(-50%, -50%);
+}
+
+.cityy{
+  background-color: rgb(47, 47, 48);
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  padding: 0 20px;
+  text-align: center;
+  padding: 21px;
+  transform: translate(-50%, -50%);
+}
+
+footer{
+  position: absolute;
+  top: 296%;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  padding: 0 20px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+section{
+  height: 100%;
+  margin: 30px;
+}
+
+.crimes-top-fesht{
+  float: left;
+  width: calc(50% - 20px);
+  background: rgb(240, 233, 233);
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 30px;
+}
+
+.crimes-top-second{
+  float: right;
+  width: calc(50% - 20px);
+  background: rgb(228, 223, 223);
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+}
+.crimes-top-second:hover{
+  color: aquamarine;
+  background: rgb(184, 86, 86);
+}
+.crimes-top-fesht:hover{
+  color: aquamarine;
+  background: rgb(184, 86, 86);
+}
+
+@media (max-width: 900px) {
+  .crimes-top-second{
+    float: none;
+    width: calc(100% - 20px);
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin: 10px;
+  }
+  .crimes-top-fesht{
+    float: none;
+    width: calc(100% - 20px);
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin: 2%;
+  }
+  .homee-contentt{
+    text-align: center;
+    font-size: 14px;
+    padding: 180px;
+    margin: 12px;
+  }
+  .homee-contentt a{
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 9px;
+    border: 3px solid rgb(39, 22, 26);
+  }
+}
+
+@media (max-width: 650px){
+  .homee-contentt{
+    display: none;
+  }
+  .city{
+    top: 90%;
+  }
+  .footer{
+    top: 270%;
+  }
+ 
+}
