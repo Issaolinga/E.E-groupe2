@@ -1,0 +1,165 @@
+#iss{
+    font-size: 13px;
+}
+.footer{
+  top: 170%;
+}
+
+  /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  .crimes-top-seco{
+    float: right;
+    width: calc(100% - 30px);
+    background: rgb(251, 249, 249);
+    border-radius: 6px;
+    padding: 25px 30px;
+  }
+
+  .crimes-top-seco:hover{
+    color: rgb(5, 5, 5);
+  }
+
+  .cite{
+    background-color: rgb(14, 14, 238);
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    width: 100%;
+    z-index: -1;
+    padding: 0 20px;
+    text-align: center;
+    padding: 21px;
+    transform: translate(-50%, -50%);
+  }
+
+  #cite{
+    top:170%
+  }
+
+  #footer{
+    top: 325%;
+  }
+
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+      font-size: 22px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    height: 60%;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20%;
+
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    text-indent: 50px;
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+  .col-753 {
+    float: right;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, .col-755, .col-753, h1, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    #iss{
+        font-size: 7px;
+    }
+
+    .cite{
+      width: 100%;
+      left: none;
+      text-align: center;
+    }
+
+    .crimes-top-seco{
+      width: 150%;
+      padding: 10px 5px;
+    }
+
+    .footer{
+      top: 215%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .col-25, .col-75, .col-755, .col-753, h1, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    h1{
+      text-align: center;
+    }
+    #iss{
+        font-size: 9px;
+    }
+
+    .cite{
+      width: 100%;
+      left: none;
+      text-align: center;
+    }
+
+    .crimes-top-seco{
+      width: calc(100% - 20px);
+      padding: 10px 10px;
+    }
+
+    .footer{
+      top: 220%;
+    }
+
+    #cite{
+      top:185%
+    }
+  
+    #footer{
+      top: 400%;
+    }
+
+  }
